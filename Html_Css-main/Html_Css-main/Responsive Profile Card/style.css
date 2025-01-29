@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,300;0,400;1,300&family=Rajdhani:wght@500&family=Space+Grotesk:wght@500&family=Young+Serif&display=swap');
+
+*
+{
+font-family: 'Poppins', sans-serif;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{   
+    background-color: rgb(255, 255, 255); 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image
+{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;   
+    background-color: rgb(95, 170, 235);
+    padding: 3px;
+    object-fit: cover;
+    margin: 10px;
+    position: relative;
+}
+.profile-image
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+}
+.profile-card
+{
+    max-width: 350px;
+    width: 100%;
+    background: #f5f2f2;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 0 0 rgb(0, 0, 0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  3px 3px 3px 3px #888888;
+    position: relative;
+}
+.profile-card::before
+{
+    content:'';
+    position: absolute;
+    height: 37%;
+    width: 100%;
+    background-color: rgb(95, 170, 235);
+    top: 0;
+    left: 0;
+    border-radius: 25px 25px 0 0;
+}
+.profile-card .text-card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+
+}
+.text-card .name
+{
+    font-size: 17px;
+    font-weight: 400px;
+}
+.media
+{
+    font-size: 22px;
+    
+}
+.media .fb
+{
+    color:#316FF6;
+}
+.media .linkedin
+{
+    color:#0A66C2;
+}
+.media .insta
+{
+    color:#c13ac4;
+}
+.media .git
+{
+    color:#000000;
+}
+.media .icons
+{
+    padding: 5px;
+    text-decoration: none; 
+    margin: 4px;
+}
+.button
+{
+    margin-top: 14px;
+    transition: all 0.8 ease;
+}
+.button .sub
+{
+    border-radius: 7px;
+    margin-right: 11px;
+    background-color: rgb(95, 170, 235);
+    padding: 6px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.button .follow
+{
+    border-radius: 7px;
+    background-color: rgb(95, 170, 235);
+    padding: 6px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.button .buttons:hover
+{
+    background-color: rgb(58, 149, 228);
+}
+.analytics 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.analytics .data
+{
+    margin-top: 4px;
+    padding: 9px;
+    box-shadow: 0,5,10,rgba(31, 30, 30, 0.1);
+    border-right: 2px solid #e7e7e7;
+    cursor: pointer;
+}
+

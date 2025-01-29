@@ -1,0 +1,2 @@
+1)Boxicons----->You can directly import images from here in html file
+2)GoogleFonts ---->import this into your css file and copy the html tag present there and use it
